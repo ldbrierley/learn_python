@@ -21,13 +21,10 @@ while True:
     if guess == the_random_number:
         print("correct")
         break
-     
     elif guess > the_random_number:
         print("You guess to high")
-     
     else:
         print("You guess to low")
-    
 
 score = 100 / number_of_guesses
 print("score is " + str(score)) 
